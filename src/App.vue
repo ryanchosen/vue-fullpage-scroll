@@ -10,7 +10,7 @@
   </div>
     <section class="fullpage blue">
       <h1>Vue.js Fullpage Scroll</h1>
-      <p>制作者: <a href="https://webdeasy.de/?referer=cp-NVOEBL" target="_blank">Ryan Su</a></p>
+      <p>制作者: <a>Ryan Su</a></p>
     </section>
     <section class="fullpage black">
       <h1>Section 2</h1>
@@ -123,14 +123,11 @@ export default {
     calculateSectionOffsets() {
       let sections = document.getElementsByTagName('section');
       let arr=[...sections];
-      console.log(arr);
       arr.map((item)=>{
-        let sectionOffset = item.offsetTop;
-        this.offsets.push(sectionOffset);
+        this.offsets.push(1);
       })
     },
     handleMouseWheel: function (e) {
-
       if (e.wheelDelta < 30 && !this.inMove) {
         this.moveUp();
       } else if (e.wheelDelta > 30 && !this.inMove) {
@@ -138,7 +135,6 @@ export default {
       }
 
       e.preventDefault();
-      return false;
     },
     handleMouseWheelDOM: function (e) {
 
@@ -147,8 +143,6 @@ export default {
       } else if (e.detail < 0 && !this.inMove) {
         this.moveDown();
       }
-
-      return false;
     },
     moveDown() {
       this.inMove = true;
@@ -167,7 +161,7 @@ export default {
       this.scrollToSection(this.activeSection, true);
     },
     scrollToSection(id, force = false) {
-      if (this.inMove && !force) return false;
+      if (this.inMove && !force) return;
 
       this.activeSection = id;
       this.inMove = true;
@@ -185,9 +179,8 @@ export default {
       this.touchStartY = e.touches[0].clientY;
     },
     touchMove(e) {
-      if (this.inMove) return false;
+      if (this.inMove) return;
       e.preventDefault();
-
       const currentY = e.touches[0].clientY;
 
       if (this.touchStartY < currentY) {
@@ -197,7 +190,6 @@ export default {
       }
 
       this.touchStartY = 0;
-      return false;
     }
   },
   mounted() {
