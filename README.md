@@ -1,5 +1,5 @@
-# 自制的vue-fullpage-scroll组件
-大致思路:
+[![s9z3t0.png](https://s3.ax1x.com/2021/01/03/s9z3t0.png)](https://imgchr.com/i/s9z3t0)
+# 实现思路
 1. 获取页面中section标签的数目，根据section标签数生成控制栏
 2. 在全局window上 分别对鼠标滚轮事件,触摸事件绑定事件监听
 3. 获取index, 调用原生dom api,scrollIntoView跳转到属于该index的dom元素的位置
