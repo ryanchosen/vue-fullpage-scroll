@@ -9180,7 +9180,7 @@ var staticRenderFns = [
       _c("h1", [_vm._v("Vue.js Fullpage Scroll")]),
       _vm._v(" "),
       _c("p", [
-        _vm._v("by "),
+        _vm._v("制作者: "),
         _c(
           "a",
           {
@@ -9202,8 +9202,8 @@ var staticRenderFns = [
       _c("h1", [_vm._v("Section 2")]),
       _vm._v(" "),
       _c("p", [
-        _vm._v("made with "),
-        _c("a", { attrs: { href: "https://vuejs.org/", target: "_blank" } }, [
+        _vm._v("组件实现基于 "),
+        _c("a", { attrs: { href: "https://cn.vuejs.org/", target: "_self" } }, [
           _vm._v("Vue.js")
         ])
       ])
@@ -9216,7 +9216,7 @@ var staticRenderFns = [
     return _c("section", { staticClass: "fullpage red" }, [
       _c("h1", [_vm._v("Section 3")]),
       _vm._v(" "),
-      _c("p", [_vm._v("works on "), _c("b", [_vm._v("desktop & mobile")])])
+      _c("p", [_vm._v("适用于"), _c("b", [_vm._v("桌面 & 手机端")])])
     ])
   },
   function() {
@@ -9226,20 +9226,7 @@ var staticRenderFns = [
     return _c("section", { staticClass: "fullpage green" }, [
       _c("h1", [_vm._v("Section 4")]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v("Tutorial "),
-        _c(
-          "a",
-          {
-            attrs: {
-              href:
-                "https://webdeasy.de/en/programming-vue-js-fullpage-scroll/?referer=cp-NVOEBL",
-              target: "_blank"
-            }
-          },
-          [_vm._v("here")]
-        )
-      ])
+      _c("p", [_vm._v("顺滑过渡 & 轻松配置")])
     ])
   }
 ]
@@ -9318,7 +9305,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64659" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49869" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -10,19 +10,19 @@
   </div>
     <section class="fullpage blue">
       <h1>Vue.js Fullpage Scroll</h1>
-      <p>by <a href="https://webdeasy.de/?referer=cp-NVOEBL" target="_blank">Ryan Su</a></p>
+      <p>制作者: <a href="https://webdeasy.de/?referer=cp-NVOEBL" target="_blank">Ryan Su</a></p>
     </section>
     <section class="fullpage black">
       <h1>Section 2</h1>
-      <p>made with <a href="https://vuejs.org/" target="_blank">Vue.js</a></p>
+      <p>组件实现基于 <a href="https://cn.vuejs.org/" target="_self">Vue.js</a></p>
     </section>
     <section class="fullpage red">
       <h1>Section 3</h1>
-      <p>works on <b>desktop & mobile</b></p>
+      <p>适用于<b>桌面 & 手机端</b></p>
     </section>
     <section class="fullpage green">
       <h1>Section 4</h1>
-      <p>Tutorial <a href="https://webdeasy.de/en/programming-vue-js-fullpage-scroll/?referer=cp-NVOEBL" target="_blank">here</a></p>
+      <p>顺滑过渡 & 轻松配置</p>
     </section></div>
 </template>
 <style>
