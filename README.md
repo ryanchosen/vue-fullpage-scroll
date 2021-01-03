@@ -11,4 +11,4 @@ http://ryansu.gitee.io/vue-fullpage-scroll/
 # 本地运行
 `parcel src/index.html`
 # 打包发布
-`parcel build index.html --no-minify --public-url ./`
+`parcel build src/index.html --no-minify --public-url ./`
