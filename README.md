@@ -16,4 +16,3 @@
 - `parcel src/index.html`
 # 打包发布
 - `parcel build src/index.html --no-minify --public-url ./`
-- `parcel build src/index.html --no-minify --public-url ./`
