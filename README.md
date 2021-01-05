@@ -1,4 +1,4 @@
-[![s9z3t0.png]('./src/1.jpeg')](https://imgchr.com/i/s9z3t0)
+[![s9z3t0.png](https://s3.ax1x.com/2021/01/03/s9z3t0.png)](https://imgchr.com/i/s9z3t0)
 # 在线预览
 - ![1609835634.png](https://i.loli.net/2021/01/05/6c5JUFDhR3iemQ9.png)
 
