@@ -7,8 +7,12 @@
 8. 鼠标滚动到两头时如何处理？如果`activeSection`等于-1就跳到`index`是3的位置，如果`activeSection` 等于4就跳到`index` 是0的位置
 9. 移动端如何处理？对比 `e.touches[0].clientY` 在 `touchStart` 与 `touchMove` 两个触摸事件过程中的差值，>0则向下滚动，<0则向上滚动
 # 在线预览
-- http://ryansu.gitee.io/vue-fullpage-scroll/
+- ![1609835634.png](https://i.loli.net/2021/01/05/6c5JUFDhR3iemQ9.png)
+
+- http://ryansu.gitee.io/vue-fullpage-scroll/  
+
 # 本地运行
 - `parcel src/index.html`
 # 打包发布
+- `parcel build src/index.html --no-minify --public-url ./`
 - `parcel build src/index.html --no-minify --public-url ./`
